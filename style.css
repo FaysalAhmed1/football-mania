@@ -1,0 +1,60 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: o;
+}
+
+.front{
+
+    display: flex;
+    padding-left: 156px;
+    padding-right: 140px;
+    overflow: hidden;
+    background: #2D25A0;
+    ;
+}
+
+.messege{
+    font-size: 64px;
+    color: white;
+}
+.messege a{
+    text-decoration: none;
+    background-color: violet;
+    padding: 10px 10px;
+
+    border-radius: 40px;
+    color: white;
+    font-weight: 400;
+}
+
+.banner img{
+    width: 541px;
+    
+    
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+   
+    padding : 70px 140px; 
+    
+}
+.player{
+
+    padding: 15px;
+}
+.player img{
+    position: static;
+    width: 300px;
+    height: 256px;
+}
+.player h3{
+    font-size: 28px;
+}
+.player p{
+    font-size: 16px;
+}
+
