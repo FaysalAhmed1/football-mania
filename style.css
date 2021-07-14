@@ -1,36 +1,41 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    margin: o;
+    margin: 0px;
 }
-
+.a{
+    text-decoration: none;
+}
 .front{
 
     display: flex;
-    padding-left: 156px;
-    padding-right: 140px;
+    padding: 90px 150px;
     overflow: hidden;
     background: #2D25A0;
     ;
 }
 
 .messege{
+    width: 50%;
     font-size: 64px;
     color: white;
 }
 .messege a{
     text-decoration: none;
-    background-color: violet;
-    padding: 10px 10px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
 
-    border-radius: 40px;
+   font-size: 16px;
     color: white;
-    font-weight: 400;
+    font-weight: 500;
 }
-
+.messege a i{
+    size: 24px;
+    padding-left:20px;
+}
 .banner img{
-    width: 541px;
-    
+    width: 700px;
+   
     
 }
 
@@ -38,29 +43,54 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     overflow: hidden;
-   
-    padding : 70px 140px; 
-    
+    padding : 5% 13%; 
 }
 .player{
-    
-    padding: 15px;
+    text-align: left;
+    padding: 30px;
 }
 .player img{
-    position: static;
-    width: 300px;
-    height: 256px;
+    
+    width: 400px;
+    height: 300px;
 }
 .player h3{
     font-size: 28px;
+    margin: 0px;
+    text-align: left;
 }
 .player p{
     font-size: 16px;
-    width: 300px;
+    width: 400px;
+    text-align: left;
+
 }
 
 .footer{
+    text-align: center;
     
 }
+.logo{
+    padding-bottom: 20px;
+}
 
+
+.footer a{
+    color: rgb(149, 149, 168);
+    
+    padding:10px;
+    background-color: rgb(225, 233, 255);
+   
+    border-radius: 50%;
+    margin: 0 7px;;
+}
+.footer a i{
+    width: 32px;
+    height: 32px;
+    
+}
+.copyright{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    
 }
