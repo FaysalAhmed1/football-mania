@@ -1,4 +1,5 @@
 
+/* Universal css design for the page */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -7,6 +8,9 @@ body{
     text-decoration: none;
 }
 
+/* end  */
+
+/* Header Part */
 .front{
 
     display: flex;
@@ -15,7 +19,6 @@ body{
     background: #2D25A0;
     
 }
-
 .messege{
     width: 50%;
     font-size: 64px;
@@ -37,9 +40,17 @@ body{
 .banner img{
     width: 700px;
    
-    transition: width 10s ease 1s, transform 5s ;
+    transition: width 5s ease 1s, transform 5s ;
 }
 
+.banner img:hover{
+    width: 700px;
+    transform: rotate(360deg);
+}
+
+/* End of header */
+
+/* Design for Body section */
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -68,11 +79,9 @@ body{
     text-align: left;
     white-space: pre-line;
     color: #6C6C6C;
-
-
 }
 
-
+/* Newsteller Design */
 .newsteller{
     display: flex;
     justify-content: center;
@@ -99,9 +108,11 @@ body{
     color: white;
     font-weight: 600;
 }
+/* End of newsteller */
 
+/* End of body Section */
 
-
+/* Design for Tablet and similar screens */
 .footer{
     text-align: center;
     
@@ -109,7 +120,6 @@ body{
 .logo{
     padding-bottom: 20px;
 }
-
 
 .footer a{
     color: rgb(149, 149, 168);
@@ -133,14 +143,9 @@ body{
 
 
 
-.banner img:hover{
-    width: 800px;
-    transform: rotate(360deg)
-}
+/* Media design for Tablet and similar screens */
 
-
-
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     
     .front{
         flex-direction: column;
@@ -178,4 +183,22 @@ body{
 
     }
     
+}
+
+/* Media design for Mobile and similar screens */
+
+@media (max-width: 500px) {
+
+    .banner img{
+        width: 300px;
+       
+        transition: width 5s ease 1s, transform 5s ;
+    }
+    
+    
+    .banner img:hover{
+        width: 300px;
+        transform: rotate(360deg);
+    }
+
 }
