@@ -72,6 +72,36 @@ body{
 
 }
 
+
+.newsteller{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    background-color: #483de6be;
+    padding: 20px 150px;
+    border-radius: 5%;
+}
+.signup input, button{
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    
+}
+
+.signup button{
+    background-color: rgba(14, 35, 82, 0.877);
+    color: white;
+    font-weight: 600;
+}
+
+
+
 .footer{
     text-align: center;
     
