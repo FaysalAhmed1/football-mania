@@ -81,6 +81,47 @@ body{
     color: #6C6C6C;
 }
 
+/* Blog Design */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(182, 226, 255);
+    margin-bottom: 100px;
+}
+
+.blog{
+    display: flex;  
+    padding: 10px;
+}
+.blog .thumbnail img{
+    width: 400px;
+    height: 300px;
+ 
+}
+.blog-info{
+    margin-left: 15px;
+}
+.blog-info a{
+    text-decoration: none;
+    color: #ff5722;
+}
+.blog-head{
+    font-size: 48px;
+    text-align: center;
+    color: rgb(56, 159, 207);
+}
+.blog-head h2{
+    text-align: center;
+}
+
+.blog p{
+    color: rgb(21, 194, 194);
+    white-space: pre-line;
+}
+
+/* Blog Design ends */
+
 /* Newsteller Design */
 .newsteller{
     display: flex;
@@ -91,7 +132,7 @@ body{
 .signup{
     display: flex;
     flex-direction: column;
-    background-color: #483de6be;
+    background-color: #756cfabe;
     padding: 20px 150px;
     border-radius: 5%;
 }
@@ -176,6 +217,10 @@ body{
         display: flex;
         flex-direction: column;
         overflow: hidden;
+    }
+
+    .blog{
+        flex-direction: column;
     }
     .logo img{
         width: 300px;
