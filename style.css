@@ -43,7 +43,7 @@ body{
     
 }
 .player{
-
+    
     padding: 15px;
 }
 .player img{
@@ -56,5 +56,11 @@ body{
 }
 .player p{
     font-size: 16px;
+    width: 300px;
 }
 
+.footer{
+    
+}
+
+}
