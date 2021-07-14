@@ -6,13 +6,14 @@ body{
 .a{
     text-decoration: none;
 }
+
 .front{
 
     display: flex;
-    padding: 90px 150px;
+    padding: 100px 150px;
     overflow: hidden;
     background: #2D25A0;
-    ;
+    
 }
 
 .messege{
@@ -36,7 +37,7 @@ body{
 .banner img{
     width: 700px;
    
-    
+    transition: width 10s ease 1s, transform 5s ;
 }
 
 .players{
@@ -100,7 +101,16 @@ body{
     
 }
 
-@media (max-width: 500px) {
+
+
+.banner img:hover{
+    width: 800px;
+    transform: rotate(360deg)
+}
+
+
+
+@media (max-width: 600px) {
     
     .front{
         flex-direction: column;
