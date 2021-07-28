@@ -245,5 +245,7 @@ body{
         width: 300px;
         transform: rotate(360deg);
     }
-
+    .blog{
+        padding: 0px;
+    }
 }
